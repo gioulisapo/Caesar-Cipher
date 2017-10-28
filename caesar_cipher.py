@@ -34,7 +34,7 @@ def main():
 	(opts, args) = parser.parse_args()
 
 	if opts.input_filename == None:
-		plain_text=input('Enter your message: ')
+		plain_text=input('Type your secret: ')
 	else:
 		f = open(opts.input_filename, 'r')
 		plain_text = f.read()
