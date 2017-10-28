@@ -71,7 +71,7 @@ sub prompt_for_subst {
                     print ("\t\t\t\t\t\t\tPlease provide an English letter: ");
                 }
                 else {
-                    print("\t\t\t\t\t\t\tPlease provide an different letter: ");
+                    print("\t\t\t\t\t\t\tPlease provide a different letter: ");
                 }
                 chomp($userinput = uc(prompt '', -1));
                 print("\n");
